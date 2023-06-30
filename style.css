@@ -1,18 +1,18 @@
 :root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
-    --fonte-principal: 'Inter';
-    --botao-azul-efeito: #3c92fa;
+    --branco-principal: #dae4f5;
+    --cinza-secundario: #4a4a4a;
+    --botao-azul: #2f68ad;
+    --cor-de-fundo: #0d1b47;
+    --fonte-principal: 'ᴠᴇʀsᴀʟᴇᴛᴇ';
+    --botao-azul-efeito:#accffa;
 }
 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 450;
 }
 
 * {
@@ -36,7 +36,7 @@ body {
 
 .container__botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
@@ -50,13 +50,13 @@ body {
 }
 
 .container__aviso {
-    font-size: 12px;
+    font-size: 15px;
     color: var(--cinza-secundario);
 }
 
 .container__titulo {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 750;
 }
 
 .container__imagem {
@@ -77,8 +77,8 @@ body {
 }
 
 .descricao__titulo {
-    font-weight: 700;
-    font-size: 48px;
+    font-weight: 750;
+    font-size: 55px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
@@ -108,12 +108,12 @@ body {
 }
 
 .dispositivos__titulo {
-    font-size: 48px;
+    font-size: 55px;
     color: var(--branco-principal);
 }
 
 .lista__item {
-    font-size: 32px;
+    font-size: 35px;
     color: var(--branco-principal);
 }
 
